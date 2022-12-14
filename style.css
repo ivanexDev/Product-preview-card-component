@@ -1,0 +1,110 @@
+html {
+    background-color: hsl(30, 38%, 92%);
+}
+
+main {
+
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.container {
+    margin: 0;
+    padding: 0;
+    margin: 0 3.125rem;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    border-radius: .9375rem;
+    width: 46.25rem;
+
+
+}
+
+img {
+    width: 23.125rem;
+    border-top-left-radius: .9375rem;
+    border-bottom-left-radius: .9375rem;
+}
+
+.perfume {
+    margin: 50px .9375rem 0rem 3.125rem;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: .25rem;
+    font-size: 16px;
+    font-weight: bold;
+    color: grey;
+    -webkit-transform: scaleY(0.5);
+    transform: scaleY(0.9);
+}
+
+h1 {
+    margin-left: 3.125rem;
+    font-family: 'Fraunces', serif;
+    font-size: 40px;
+    line-height: 2.1875rem;
+}
+
+p {
+    margin: 1.875rem .9375rem 0rem 3.125rem;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: grey;
+    line-height: 1.5625rem;
+    font-weight: bold;
+    letter-spacing: .0938rem;
+}
+
+section {
+    width: 23.125rem;
+}
+
+.precios {
+    margin: 1.875rem .9375rem 0rem 3.125rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.precio-grande {
+    font-size: 35px;
+    font-family: 'Fraunces', serif;
+    color: rgb(84, 122, 105);
+}
+
+.precio-pequeno {
+
+    text-decoration: line-through;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    color: grey;
+    margin: .4375rem 0rem 0rem 1.25rem;
+
+
+
+}
+
+button {
+    background-color: rgb(84, 122, 105);
+    border: none;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    padding: .9375rem 5rem;
+    margin: 1.875rem .9375rem 0rem 3.125rem;
+    border-radius: .4375rem;
+
+
+}
+
+button:hover {
+    background-color: rgb(36, 63, 50);
+    cursor: pointer;
+}
+
+svg {
+    margin-right: .625rem;
+    font-weight: bolder;
+}
